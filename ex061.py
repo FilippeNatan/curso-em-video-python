@@ -9,4 +9,3 @@ while termos > 0:
     termos -= 1
 
 print('Acabou')
-
