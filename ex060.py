@@ -7,4 +7,4 @@ while numero != 1:
     fatorial = multi
     numero -= 1
 
-print('O fatorial de {} é {}'.format(retornoNumero, fatorial))
+print('O resultado de {}! é {}'.format(retornoNumero, fatorial))
