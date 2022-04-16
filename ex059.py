@@ -10,18 +10,20 @@ while comando != 5:
           '[5] SAIR\n'))
     if comando == 1:
         soma = primeiroNumero + segundoNumero
-        print('A soma de {} e {} é {}'.format(primeiroNumero, segundoNumero, soma))
-    if comando == 2:
+        print('A soma de {} + {} = {}'.format(primeiroNumero, segundoNumero, soma))
+    elif comando == 2:
         multiplicacao = primeiroNumero * segundoNumero
-        print('A multiplicação de {} e {} é {}'.format(primeiroNumero, segundoNumero, multiplicacao))
-    if comando == 3:
+        print('A multiplicação de {} x {} = {}'.format(primeiroNumero, segundoNumero, multiplicacao))
+    elif comando == 3:
         if(primeiroNumero > segundoNumero):
-            print('O maior número é {}'.format(primeiroNumero))
-        if(segundoNumero > primeiroNumero):
-            print('O maior número é {}'.format(segundoNumero))
-        if(primeiroNumero == segundoNumero):
+            print('{} é maior que {}'.format(primeiroNumero, segundoNumero))
+        elif(segundoNumero > primeiroNumero):
+            print('{} é maior que {}'.format(segundoNumero, primeiroNumero))
+        else:
             print('{} é igual a {}'.format(primeiroNumero, segundoNumero))
-    if comando == 4:
+    elif comando == 4:
         primeiroNumero = int(input('Informe o primeiro número novo: '))
         segundoNumero = int(input('Informe o segundo número novo: '))
+    if comando not in (1,2,3,4,5):
+        print('Comando inválido, utilize um comando da lista...')
 print('FIM!')
