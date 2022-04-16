@@ -12,4 +12,3 @@ while termos > 0:
             termos = int(input(('\nQuantos termos a mais você quer ver? ')))
 
 print('Agora acabou, mesmo! kk')
-
