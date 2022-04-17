@@ -10,7 +10,7 @@ while True:
         contadorMaior18 += 1
     if sexo in 'Mm':
         contadorHomens += 1
-    if sexo in 'Ff' and idade > 20:
+    if sexo in 'Ff' and idade < 20:
         contadorMulheresMenorDe20 += 1
     continuar = str(input('Quer continuar? [S/N]')).upper().strip()[0]
     while continuar not in 'SNsn':
@@ -20,4 +20,4 @@ while True:
         break
 print(f'Foram cadastrada(s) {contadorMaior18} pessoa(s) maiores de 18 anos.\n'
       f'Foram cadastrado(s) {contadorHomens} homens.\n'
-      f'Foram cadastrada(s) {contadorMulheresMenorDe20} mulheres com mais de 20 anos.')
+      f'Foram cadastrada(s) {contadorMulheresMenorDe20} mulheres com menos de 20 anos.')
