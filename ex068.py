@@ -10,9 +10,9 @@ while True:
     n = int(input('Diga um número: '))
     while n not in range(0,11):
         n = int(input('Diga um número: '))
-    v = str(input('Escolha Par ou Ímpar: [P/I]')).upper().strip()
+    v = str(input('Escolha Par ou Ímpar: [P/I]')).upper().strip()[0]
     while v not in 'PI':
-        v = str(input('Escolha Par ou Ímpar: [P/I]')).upper().strip()
+        v = str(input('Escolha Par ou Ímpar: [P/I]')).upper().strip()[0]
     c = randint(0, 10)
     s = n + c
     string = ''
