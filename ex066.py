@@ -1,6 +1,6 @@
-n = c = s = 0
+c = s = 0
 
-while n != 999:
+while True:
     n = int(input('Informe um número: (Digite 999 para parar)'))
     if n == 999:
         break
