@@ -4,6 +4,6 @@ print('{:^40}'.format('LISTA DE PREÇOS'))
 print('-'*40)
 for num in tuplaProdutos:
     if tuplaProdutos.index(num) % 2 == 0:
-        print(f'{tuplaProdutos[tuplaProdutos.index(num)]:30}R$', end=' ')
+        print(f'{tuplaProdutos[tuplaProdutos.index(num)]:.<30}R$', end=' ')
     else:
-        print(f'{tuplaProdutos[tuplaProdutos.index(num)]:.2f}')
+        print(f'{tuplaProdutos[tuplaProdutos.index(num)]:>7.2f}')
