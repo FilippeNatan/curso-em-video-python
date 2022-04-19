@@ -7,11 +7,11 @@ print('='*30)
 valorDesejado = int(input('Qual o valor deseja sacar? R$ '))
 
 if valorDesejado >= 50:
-    while valorDesejado >=50:
+    while valorDesejado >= 50:
         valorDesejado -= 50
         cedulas50 += 1
 if valorDesejado >= 20:
-    while valorDesejado >=20:
+    while valorDesejado >= 20:
         valorDesejado -= 20
         cedulas20 += 1
 if valorDesejado >= 10:
