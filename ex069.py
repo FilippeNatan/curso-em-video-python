@@ -1,4 +1,4 @@
-continuar = 'S'; contadorMaior18 = 0; contadorHomens = 0; contadorMulheresMenorDe20 = 0
+contadorMaior18 = 0; contadorHomens = 0; contadorMulheresMenorDe20 = 0
 
 while True:
     idade = int(input('Informe a idade da pessoa: '))
