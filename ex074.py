@@ -1,6 +1,7 @@
 from random import randint
 
-tuplaNumerosAleatorios = (randint(0, 99), randint(0, 99), randint(0, 99), randint(0, 99), randint(0, 99))
+tuplaNumerosAleatorios = (randint(0, 99), randint(0, 99), randint(0, 99),
+                          randint(0, 99), randint(0, 99))
 
 print(f'Sorteio de Números: {tuplaNumerosAleatorios}')
 
