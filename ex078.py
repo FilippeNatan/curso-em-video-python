@@ -21,5 +21,9 @@ for i, n in enumerate(valores):
     if n in listaMenores:
         posicoesMenores.append(i)
 print(f'Você digitou {valores}')
-print(f'O maior valor digitado foi: {max(valores)} nas posições {posicoesMaiores}')
-print(f'O menor valor digitado foi: {min(valores)} nas posições {posicoesMenores}')
+print(f'O maior valor digitado foi: {max(valores)} nas posições ', end='')
+for n in posicoesMaiores:
+    print(n, end=' ')
+print(f'\nO menor valor digitado foi: {min(valores)} nas posições ', end='')
+for n in posicoesMenores:
+    print(n, end=' ')
