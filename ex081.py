@@ -1,7 +1,6 @@
 valores = []
 while True:
-    valor=int(input('Digite um valor: '))
-    valores.append(valor)
+    valores.append(int(input('Digite um valor: ')))
     querContinuar=str(input('Quer continuar: [S/N]')).upper().strip()[0]
     if querContinuar not in 'SN':
         print('Opção inválida!')
