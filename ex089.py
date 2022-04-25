@@ -15,11 +15,3 @@ while True:
         break
 print('Nº NOME            MÉDIA')
 print('-'*30)
-
-for n in range(0,len(boletim)):
-    if contador != 2:
-        print(boletim[n][0], end=' ')
-        contador += 1
-    else:
-        print(f'{boletim[n][0]}\n')
-        contador = 0
