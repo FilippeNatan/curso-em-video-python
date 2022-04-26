@@ -27,5 +27,5 @@ while True:
         break
 print('-='*30)
 print(f'Ao todo, você cadastrou {len(pessoas)} pessoas.')
-print(f'O maior peso foi de {maiorPeso} Kg. Peso de {maiorPesoPessoa[0]}')
-print(f'O menor peso foi de {menorPeso} Kg. Peso de {menorPesoPessoa[0]}')
+print(f'O maior peso foi de {maiorPeso} Kg. Peso de {maiorPesoPessoa[0]}.')
+print(f'O menor peso foi de {menorPeso} Kg. Peso de {menorPesoPessoa[0]}.')
