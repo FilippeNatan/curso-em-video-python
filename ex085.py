@@ -5,5 +5,5 @@ for n in range(1, 8):
         valores[0].append(v)
     else:
         valores[1].append(v)
-print(f'Os valores pares digitados em ordem crescente foram: {sorted(valores[0])}')
-print(f'Os valores ímpares digitados em ordem crescente foram: {sorted(valores[1])}')
+print(f'Os valores pares digitados em ordem crescente foram: {sorted(valores[0])}.')
+print(f'Os valores ímpares digitados em ordem crescente foram: {sorted(valores[1])}.')
