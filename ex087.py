@@ -1,5 +1,5 @@
-matriz = [[], [], [], [], [], [], [], [], []]; somaPares = 0;
-somaTerceiraColuna = 0; maiorSegundaLinha = 0
+matriz = [[], [], [], [], [], [], [], [], []];
+somaPares = somaTerceiraColuna = maiorSegundaLinha = 0
 
 for n in range(0, 3):
     v = int(input(f'Digite um valor para [0, {n}]: '))
