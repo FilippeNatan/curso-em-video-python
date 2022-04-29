@@ -18,6 +18,7 @@ for p in range(0, quantidadeDeJogos):
             v = randint(1, 60)
         jogo.append(v)
     sleep(0.5)
+    jogo.sort()
     print(f'Jogo {p+1}: {jogo}')
     jogo.clear()
 print('{:^30}'.format('BOA SORTE'))
