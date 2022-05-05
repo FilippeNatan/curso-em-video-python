@@ -6,6 +6,6 @@ for n in expressao:
     elif n in ')':
         fechando += 1
 if abrindo == fechando:
-    print('Sua expressão é válida')
+    print('Sua expressão é válida!')
 elif abrindo != fechando:
-    print('Sua expressão é inválida')
+    print('Sua expressão é inválida!')
