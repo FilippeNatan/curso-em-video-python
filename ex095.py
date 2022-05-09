@@ -27,6 +27,6 @@ while True:
     if consulta < 0 or consulta > len(listaJogadores)-1:
         print('Erro! Número de jogador inválido.')
     else:
-        print(f'-- LEVANTAMENTO DO JOGADOR {listaJogadores[consulta]["nome"]}:')
+        print(f'-- LEVANTAMENTO DO JOGADOR {listaJogadores[consulta]["nome"].upper()}:')
         for h, n in enumerate(listaJogadores[consulta]['gols']):
             print(f'Na partida {h+1}, fez {n} gols.')
