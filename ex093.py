@@ -15,5 +15,5 @@ for i, v in dadosJogador.items():
 print('-=-'*20)
 print(f'O jogador {dadosJogador["nome"]} jogou {numeroPartidas} partidas.')
 for i, v in enumerate(listaGols):
-    print(f'Na partida {i+1}, fez {v} gols.')
+    print(f'   => Na partida {i+1}, fez {v} gols.')
 print(f'Foi um total de {dadosJogador["total"]} gols.')
