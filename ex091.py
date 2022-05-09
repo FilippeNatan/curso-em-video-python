@@ -1,14 +1,18 @@
 from random import randint
-
-lista = []
-jogadores = {}
-
-print('Valores sorteados: ')
-for n in range(1, 5):
-    jogadores['jogador'] = n
-    jogadores['dado'] = randint(1, 6)
-    lista.append(jogadores.copy())
-    print(f'Jogador {jogadores["jogador"]} tirou {jogadores["dado"]}')
-for n in range(0, len(lista)):
-    print(lista[n])
-    
+from time import sleep
+from operator import itemgetter
+jogo = {'jogador 1': randint(1, 6),
+        'jogador 2': randint(1, 6),
+        'jogador 3': randint(1, 6),
+        'jogador 4': randint(1, 6)}
+ranking = []
+print('Valores sorteados:')
+for k, v in jogo.items():
+    print(f'{k} tirou {v} no dado.')
+    sleep(1)
+ranking = sorted(jogo.items(), key=itemgetter(1), reverse=True)
+print('-='*30)
+print('== RANKING DOS JOGADORES ==')
+for i, v in enumerate(ranking):
+    print(f'  {i+1}º lugar: {v[0]} com {v[1]}.')
+    sleep(1)
