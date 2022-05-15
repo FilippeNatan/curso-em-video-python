@@ -24,6 +24,7 @@ def contador(inicio, fim, passo):
     print(' FIM!')  # tive que fazer isso pra pular linha =P
     traço()
 
+
 contador(1, 10, 1)
 contador(10, 0, 2)
 print('Agora é sua vez de personalizar a contagem!')
